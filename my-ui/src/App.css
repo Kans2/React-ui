@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header 
+{
+   display:flex;
+   align-items:center;
+}
+.select
+{
+    margin:1.5rem;
+    cursor: pointer;
+    color:red;
+}
